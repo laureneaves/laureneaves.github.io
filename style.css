@@ -43,7 +43,7 @@ section {
 
 .button:hover {
   color: fff;
-  background:var(--black);
+  background: var(--black);
 }
 
 header {

@@ -1,3 +1,24 @@
-# laureneaves.github.io
-
-test test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lauren Eaves - Portfolio</title>
+  
+<section class="home" id="home">
+    
+    <div class="content">
+      
+      <h3>Lauren Eaves</h3>
+      
+      <span>Portfolio</span>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In  tincidunt, lorem sed mattis scelerisque..</p>
+      
+      <a href="#" class="button">View my projects.</a>
+    
+  </div>
+  
+</section>

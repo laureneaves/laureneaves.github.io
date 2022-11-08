@@ -27,7 +27,7 @@ html {
 }
 
 section {
-  padding:2rem 9%;
+  padding: 2rem 9%;
 }
 
 .button {
@@ -42,7 +42,8 @@ section {
 }
 
 .button:hover {
-  background:var(--pink);
+  color: fff;
+  background:var(--black);
 }
 
 header {

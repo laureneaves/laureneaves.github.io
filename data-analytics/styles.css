@@ -1,5 +1,6 @@
 /* 
 * Introduction illustration: https://www.figma.com/@kovalit
+* About icons: https://www.figma.com/community/file/1075389062627265602
 */
 
 :root {
@@ -450,6 +451,10 @@ About - Smartphone
     justify-content: center;
     text-align: center;
   }
+  
+  .about-content img {
+    width: 50%;
+  }
 }
 
 /* MEDIA QUERIES 
@@ -461,6 +466,10 @@ About - Tablet
     flex-wrap: wrap;
     padding: 10px 50px;
   }
+  
+  .about-content img {
+  width: 50%;
+}
 }
 
 /* ABOUT GRID END */

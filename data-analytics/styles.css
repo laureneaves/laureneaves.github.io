@@ -453,7 +453,7 @@ About - Smartphone
   }
   
   .about-content img {
-    width: 50%;
+    display: none;
   }
 }
 
@@ -464,11 +464,11 @@ About - Tablet
   .about-wrapper {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 50px;
+    padding: 10px 30px;
   }
   
   .about-content img {
-  width: 50%;
+    display: none;
 }
 }
 

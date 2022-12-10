@@ -432,6 +432,10 @@ Media queries: Introduction - Smart Phone
   white-space: nowrap;
 }
 
+.about-content img {
+  width: 50%;
+}
+
 /* MEDIA QUERIES 
 About - Smartphone 
 */

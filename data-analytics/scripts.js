@@ -1,25 +1,25 @@
-// menu-1
+// menu-1 - function for displaying menu
 function menuOneShow(){
     document.getElementById('menu-1').classList.add('show');
     document.getElementById('menu-2').classList.remove('show');
     document.getElementById('menu-3').classList.remove('show');
   }
   
-  // menu-2
+  // menu-2 - function for displaying menu
   function menuTwoShow(){
     document.getElementById('menu-1').classList.remove('show');
     document.getElementById('menu-2').classList.add('show');
     document.getElementById('menu-3').classList.remove('show');
   }
   
-  // menu-3
+  // menu-3 - function for displaying menu
   function menuThreeShow(){
     document.getElementById('menu-1').classList.remove('show');
     document.getElementById('menu-2').classList.remove('show');
     document.getElementById('menu-3').classList.add('show');
   }
   
-  // Hide menus
+  // Function for hiding menu when not hovering
   function menusHide() {
     document.getElementById('menu-1').classList.remove('show');
     document.getElementById('menu-2').classList.remove('show');
@@ -33,13 +33,13 @@ function menuOneShow(){
   document.getElementById('menu-3-button').addEventListener('mouseover', menuThreeShow);
   
   
-  // hides menus - hover status
+  // hides menus when not hovering over link
   document.getElementById('menu-1').addEventListener('mouseleave', menusHide);
   document.getElementById('menu-2').addEventListener('mouseleave', menusHide);
   document.getElementById('menu-3').addEventListener('mouseleave', menusHide);
   
   
-  // Side menu
+  // Side menu - event listener for for side menu menu when clicking
   document.getElementById('menu-trigger').addEventListener('click', sideMenuAppears);
   document.getElementById('close-menu').addEventListener('click', sideMenuDisappears);
   
@@ -53,12 +53,13 @@ function menuOneShow(){
     document.getElementById('side-menu').classList.remove('show-menu');
   }
   
+  
+  /* Slick carousel */
+
   $("input.slider").on("input change", function(event) {
       var element = $(this).parents("div.container");
       var pos = event.target.value;
       
-  
-  /* Slick carousel */
     element.find("div.before").css({width: pos + "%"});
       element.find("div.slider-button").css({left: "calc(" + pos + "% - 18px)"});
   });

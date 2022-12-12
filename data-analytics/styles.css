@@ -300,12 +300,6 @@ br {
   font-size: 30px;
 }
 
-/* Animation Class for JavaScript - Hamburger Menu */
-.show-menu {
-  opacity: 1;
-  transform: translateX(0%);
-}
-
 /* NAV BAR END */
 
 /* INTRODUCTION START*/

@@ -953,6 +953,10 @@ Company Information - Tablet */
    text-decoration: none;
 }
 
+.footer-links a:hover {
+  color: var(--red);
+}
+
 /* MEDIA QUERIES
 * Footer - Tablet 
 */

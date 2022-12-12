@@ -137,6 +137,10 @@ ul {
   justify-content: flex-end;
 }
 
+.nav-right a {
+  text-decoration: none;
+}
+
 /* Dropdown Menus */
 .dropdown-menu {
   background-color: #fff;

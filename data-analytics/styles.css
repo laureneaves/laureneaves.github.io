@@ -446,6 +446,10 @@ Media queries: Introduction - Smart Phone
   height: auto;
 }
 
+.six-thousand {
+  padding-top: 10px;
+}
+
 /* MEDIA QUERIES 
 About - Smartphone 
 */
@@ -453,7 +457,7 @@ About - Smartphone
 @media (max-width: 420px) {
   .about-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   
   .about-content {
@@ -611,7 +615,9 @@ Company Information - Tablet */
 
 @media (max-width: 420px) {
   .services {
-    padding: 20px 20px;
+    padding: 0px;
+    margin: 0px;
+    margin: auto;
   }
 }
 
@@ -621,7 +627,7 @@ Company Information - Tablet */
 
 @media (max-width: 820px) {
   .services {
-    padding: 20px 20px;
+    padding: 50px 50px;
   }
 }
 

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytic</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts - Playfair Display-->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Top Nav Bar - Start -->
+  <header class="header" id="top-header">
+    <!-- Logo -->
+    <section class="nav-left">
+      <div class="logo">
+        Analytic
+      </div>
+
+      <!-- Top Nav Bar - Links -->
+      <ul class="nav">
+        <li id="menu-1-button">About</li>
+        <li id="menu-2-button">Services</li>
+        <li id="menu-3-button">Pricing</li>
+        <li>Contact</li>
+      </ul>
+    </section>
+
+    <!-- Contact Button & Hamburger Icon -->
+    <div class="nav-right">
+      <p class="contact">Contact</p>
+      <div class="hamburger-menu" id="menu-trigger">
+        <i class="material-icons">menu</i>
+      </div>
+    </div>
+  </header>
+  <!-- Top Nav Bar - End -->
+
+  <!-- Collapsible Menus - Start -->
+  <aside class="side-menu-position side-menu-style" id="side-menu">
+    <header class="side-menu-header">
+      <div class="logo">
+        Analytic
+      </div>
+      <i class="material-icons" alt="Close menu" id="close-menu">close</i>
+    </header>
+    <ul class="side-menu-links">
+      <li>About</li>
+      <li>Services</li>
+      <li>Pricing</li>
+      <br>
+      <li class="side-menu-contact">Contact Us</li>
+    </ul>
+  </aside>
+
+  <!-- Dropdown Menu - About -->
+  <aside class="dropdown-menu" id="menu-1">
+    <ul class="menu-items">
+      <li><a href="#">Who are we?</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Culture</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </aside>
+
+  <!-- Dropdown Menu - Services -->
+  <aside class="dropdown-menu" id="menu-2">
+    <ul class="menu-items">
+      <li><a href="#">Data analytics</a></li>
+      <li><a href="#">Design & development</a></li>
+      <li><a href="#">Data strategy</a></li>
+      <li><a href="#">Consulting</a></li>
+      </li>
+    </ul>
+  </aside>
+  <!-- Dropdown Menu - Pricing -->
+  <aside class="dropdown-menu" id="menu-3">
+    <ul class="menu-items">
+      <li><a href="#">Packages</a></li>
+      <li><a href="#">Quotes</a></li>
+    </ul>
+  </aside>
+  <!-- Side Menu - Collapsible - End -->
+
+  <!-- Main - Start -->
+  <!-- FORM -->
+  <div class="heading">
+    <h1>Contact us!<h1>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <!-- First name -->
+      <div class="small-column">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="large-column">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name">
+      </div>
+    </div>
+    
+    <!-- Last name -->
+    <div class="row">
+      <div class="small-column">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="large-column">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name">
+      </div>
+    </div>
+    
+    <!-- Last name -->
+    <div class="row">
+      <div class="small-column">
+        <label for="email">Email</label>
+      </div>
+      <div class="large-column">
+        <input type="text" id="email" name="email" placeholder="Your email">
+      </div>
+    </div>
+    
+    <!-- Service -->
+    <div class="row">
+      <div class="small-column">
+        <label for="service">Service required</label>
+      </div>
+      <div class="large-column">
+        <select id="service" name="service">
+          <option value="data-analytics">Data analytics</option>
+          <option value="design-development">Design & development</option>
+          <option value="data-strategy">Data strategy</option>
+          <option value="Branding">Branding</option>
+        </select>
+      </div>
+    </div>
+    
+    <!-- Enquiry -->
+    <div class="row">
+      <div class="small-column">
+        <label for="enquiry">Enquiry</label>
+      </div>
+      <div class="large-column">
+        <textarea id="subject" name="subject" placeholder="What do you need?" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+  
+  <!-- Main - End -->
+
+  <!-- Footer - Start -->
+  <div class="footer">
+    <ul class="footer-links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- Footer - End -->
+
+</body>
+
+</html>

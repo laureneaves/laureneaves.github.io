@@ -94,10 +94,6 @@ a:visited {
   color: var(--dark);
 }
 
-.logo a {
-  text-decoration: none;
-}
-
 /* Navbar - Links */
 .nav {
   display: none;
@@ -139,10 +135,6 @@ ul {
   align-items: center;
   display: flex;
   justify-content: flex-end;
-}
-
-.nav-right a {
-  text-decoration: none;
 }
 
 /* Dropdown Menus */
@@ -271,16 +263,12 @@ ul {
   padding: 0 25px 25px 25px;
 }
 
-.side-menu-header a {
-  text-decoration: none;
-
 .side-menu-links {
   color: var(--dark);
   font-size: 24px;
   margin: 25px;
   padding-left: 0;
   text-align: center;
-  text-decoration: none;
 }
 
 .side-menu-content li {
@@ -414,11 +402,11 @@ input[type=submit] {
 .footer-links a {
    text-decoration: none;
 }
-  
+
 .footer-links a:hover {
   color: var(--red);
 }
-  
+
 /* MEDIA QUERIES
 * Footer - Tablet 
 */

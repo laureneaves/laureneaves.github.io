@@ -121,9 +121,11 @@ ul {
 }
 
 
-/* MEDIA QUERIES
-* Navbar - Desktop
+/* 
+MEDIA QUERIES
+Navbar - Desktop
 */
+
 @media (min-width: 960px) {
   .nav {
     display: flex;
@@ -214,9 +216,11 @@ ul {
   color: #fff;
 }
 
-/* MEDIA QUERIES 
-* Contact Button - Desktop
+/* 
+MEDIA QUERIES 
+Contact Button - Desktop
 */
+
 @media (min-width: 960px) {
   .contact {
     display: block;
@@ -229,9 +233,11 @@ ul {
   cursor: pointer;
 }
 
-/* MEDIA QUERIES
-* Hamburger Button - Desktop
+/* 
+MEDIA QUERIES
+Hamburger Button - Desktop
 */
+
 @media (min-width: 960px) {
   .hamburger-menu {
     display: none;
@@ -355,6 +361,11 @@ input[type=submit] {
   clear: both;
 }
 
+/*
+MEDIA QUERIES
+Tablet
+*/
+
 @media (max-width: 820px) {
   .small-column, 
   .large-column, 
@@ -405,9 +416,11 @@ input[type=submit] {
   color: var(--red);
 }
 
-/* MEDIA QUERIES
-* Footer - Tablet 
+/* 
+MEDIA QUERIES
+Footer - Tablet 
 */
+
 @media (max-width: 820px) {
   .footer-links {
     padding-right: 50px;

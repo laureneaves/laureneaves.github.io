@@ -94,6 +94,10 @@ a:visited {
   color: var(--dark);
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 /* Navbar - Links */
 .nav {
   display: none;

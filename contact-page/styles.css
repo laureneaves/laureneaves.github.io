@@ -414,7 +414,11 @@ input[type=submit] {
 .footer-links a {
    text-decoration: none;
 }
-
+  
+.footer-links a:hover {
+  color: var(--red);
+}
+  
 /* MEDIA QUERIES
 * Footer - Tablet 
 */

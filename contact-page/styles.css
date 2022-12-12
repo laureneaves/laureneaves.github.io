@@ -271,12 +271,16 @@ ul {
   padding: 0 25px 25px 25px;
 }
 
+.side-menu-header a {
+  text-decoration: none;
+
 .side-menu-links {
   color: var(--dark);
   font-size: 24px;
   margin: 25px;
   padding-left: 0;
   text-align: center;
+  text-decoration: none;
 }
 
 .side-menu-content li {

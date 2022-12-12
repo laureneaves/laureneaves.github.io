@@ -482,7 +482,11 @@ About - Tablet
   
   .about-content img {
     display: none;
-}
+  }
+  
+  .six-thousand {
+  padding-top: 0px;
+  }
 }
 
 /* ABOUT GRID END */
